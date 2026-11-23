@@ -1,0 +1,25 @@
+# Chaves e palavras-passe (ficam no OneDrive)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Dependências e ficheiros gerados
+node_modules/
+vendor/
+dist/
+build/
+bin/
+obj/
+
+# Cópias da base de dados com dados reais
+*.sqlite
+*.db
+*.bak
+
+# Ficheiros do sistema e do editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
