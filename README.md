@@ -1,6 +1,6 @@
-# PrimeTrack — PAP
+# PrimeTech — PAP
 
-Repositório com todo o código da PAP: os sites, a aplicação e a base de dados do projeto **PrimeTrack / BussTrack**.
+Repositório com todo o código da PAP: os sites, a aplicação e a base de dados do projeto **PrimeTech / BussTrack**.
 
 > O relatório, as apresentações e as chaves (API, palavras-passe) **não** ficam aqui — estão no OneDrive.
 
@@ -8,7 +8,7 @@ Repositório com todo o código da PAP: os sites, a aplicação e a base de dado
 
 ```
 PrimeTechCorporate/
-├── site-empresa/   ← site da empresa PrimeTrack Technologies
+├── site-empresa/   ← site da empresa PrimeTech Corporate
 ├── busstrack/      ← site do produto BussTrack (aplicação de autocarros em tempo real)
 ├── base-dados/     ← scripts SQL da base de dados (a fazer)
 ├── index.html      ← página inicial: abre o site da empresa
@@ -26,7 +26,7 @@ Tudo o que for enviado para o ramo `main` fica publicado passado um ou dois minu
 
 | Pasta | O que é | Veio do repositório |
 |---|---|---|
-| `site-empresa/` | Site institucional da PrimeTrack Technologies | `sebas00nata/primetrack-corporate-website` |
+| `site-empresa/` | Site institucional da PrimeTech Corporate | `sebas00nata/primetrack-corporate-website` |
 | `busstrack/` | Site do BussTrack | `sebas00nata/BussTrack` |
 | `base-dados/` | Estrutura e dados de teste da base de dados | — |
 
