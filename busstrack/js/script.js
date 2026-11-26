@@ -140,6 +140,9 @@
    .is-visible (o efeito está no style.css, secção 5c).
    ========================================================= */
 (function () {
+    // Se o GSAP carregou, as animações são feitas pelo js/animacoes.js
+    if (window.gsap && window.ScrollTrigger) return;
+
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     // Quem pediu menos movimento: sem efeitos de entrada.
